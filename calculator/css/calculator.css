@@ -12,6 +12,14 @@ body {
     width: 400px;
     background-color: black;
     color: white;
+    /* display: flex;
+    justify-content: center;
+    flex-flow: column; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .screen {
