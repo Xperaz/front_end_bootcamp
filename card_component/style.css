@@ -7,7 +7,7 @@ body{
     background-color: hsl(30, 38%, 92%);
 }
 
-.card {
+.main {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
@@ -87,4 +87,45 @@ body{
 
 button .fas {
     margin-right: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .image {
+        content: url('images/image-product-mobile.jpg');
+        border-radius: 10px 10px 0 0;
+    }
+
+    .container {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    
+    .content h1 {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: -10px;
+    }
+
+    .content p {
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    .add-to-cart {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding: 15px;
+        border-radius: 8px;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+        border: none;
+        cursor: pointer;
+        margin: -5px 0 15px 0;
+    }
 }
