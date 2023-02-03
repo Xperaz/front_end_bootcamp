@@ -53,7 +53,7 @@ function buildTile(color) {
 
             awaitingEndOfMove = false;
             activeTile = null;
-        }, 1000);
+        }, 800);
 
     });
 
