@@ -16,7 +16,7 @@ const quotes = [{
     person: `Hannah Arendt`
 }, {
     quote: `"I have always believed that each man makes his own happiness and is responsible for his own problems. It is a simple philosophy."`,
-    person: `Ray Kroc,`
+    person: `Ray Kroc`
 }, {
     quote: `"When we have respect for ourselves and others, we gravitate towards connections that encourage that."`,
     person: `Simeon Lindstrom`
