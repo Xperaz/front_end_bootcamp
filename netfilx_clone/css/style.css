@@ -156,6 +156,18 @@ img {
     background: #000;
 }
 
+/* Hide  content initially */
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -269,6 +281,9 @@ img {
     margin-bottom: 1rem;
 }
 
+.btn-icon {
+    margin-left: 1rem;
+}
 
 /*------ buttons --------*/
 
